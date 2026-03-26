@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-c49f0605ac3707499dfa.json",
+					"jsonFile" : "directory-.-Debug-7353d3653f92c0e0595b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Practica2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Practica2-Debug-b0b3a278d78d34243dce.json",
+					"jsonFile" : "target-Practica2-Debug-def578c6cf79951376c8.json",
 					"name" : "Practica2",
 					"projectIndex" : 0
 				},

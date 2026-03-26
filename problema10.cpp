@@ -18,12 +18,12 @@ int valorRomano(char c) {// int porque retorna el valor numérico del carácter 
         }
     }
 
-int romanoArabigo(char *romano) { //recibe la dirección de la cadena con el número romano
-        int resultado = 0;
+int romanoArabigo(char *romano) { //recibe apuntador a la cadena con el número romano
+        int resultado = 0;  //acumula los valores romanos
         int len = strlen(romano); //aqui len guarda la longitud
 
         for (int i = 0; i < len; i++) {
-            int actual = valorRomano(romano[i]);
+            int actual = valorRomano(romano[i]); //va a la dirección base y le suma i posiciones para traer el caracter actual
 
             int siguiente;
             if (i + 1 < len) {

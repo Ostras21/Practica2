@@ -5,6 +5,8 @@
 #include "problema8.h"
 #include "problema10.h"
 #include "problema12.h"
+#include "problema14.h"
+#include "problema16.h"
 using namespace std;
 
 int main() {
@@ -20,6 +22,8 @@ int main() {
         cout << " 4. problema 8  > separar numeros de texto " << endl;
         cout << " 5. problema 10 > Romano a normal   " << endl;
         cout << " 6. problema 12 > Cuadro magico   " << endl;
+        cout << " 7. problema 14 > Matriz rotada  " << endl;
+        cout << " 8. problema 16 > Caminos posibles " << endl;
         cout << " 0. salir                            " << endl;
         cout << "--------------------------------------" << endl;
         cout << "opcion: ";
@@ -33,6 +37,8 @@ int main() {
         case 4: problema8(); break;
         case 5: problema10(); break;
         case 6: problema12(); break;
+        case 7: problema14(); break;
+        case 8: problema16(); break;
         case 0: cout << "chau" << endl; break;
         default: cout << "dato ivalido" << endl;
         }
