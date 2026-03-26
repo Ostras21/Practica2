@@ -15,13 +15,11 @@ void separarNumerosTexto(char *original, char *texto, char *numeros) {
         }
     }
 
-    //esto indica donde termina
     texto[ti] = '\0';
     numeros[ni] = '\0';
 }
 
 
-//se reserva memoria para cada una de las variables
 void problema8() {
     char original[200];
     char texto[200];
@@ -30,7 +28,7 @@ void problema8() {
     cout << "Ingrese una cadena: ";
     cin >> original;
 
-    separarNumerosTexto(original, texto, numeros); //se llama a la funcion
+    separarNumerosTexto(original, texto, numeros);
 
     cout << "Original: " << original << endl;
     cout << "Texto: " << texto << ". Numero: " << numeros << endl;

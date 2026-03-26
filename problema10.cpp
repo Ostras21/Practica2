@@ -24,9 +24,16 @@ int romanoArabigo(char *romano) { //recibe la dirección de la cadena con el nú
 
         for (int i = 0; i < len; i++) {
             int actual = valorRomano(romano[i]);
-            int siguiente = (i + 1 < len) ? valorRomano(romano[i + 1]) : 0; //pregunta si aun hay otro valor, si no coloca 0
-                                        // ? es un operador ternario if/else
-            if (actual < siguiente) { //pregunta si se debe sumar o restar el numero actual
+
+            int siguiente;
+            if (i + 1 < len) {
+                siguiente = valorRomano(romano[i + 1]);
+            } else {
+                siguiente = 0;
+            } //pregunta si aun hay otro valor, si no coloca 0, EVITA LEER MEMORRIA INEXISTENTE
+
+
+            if (actual < siguiente) {
                 resultado -= actual;
             } else {
                 resultado += actual;
@@ -38,7 +45,7 @@ int romanoArabigo(char *romano) { //recibe la dirección de la cadena con el nú
     }
 
 void problema10() {
-        char romano[50]; //usa memoria estatica para reservar espacio para 50 caracteres
+        char romano[50];
 
         cout << "Ingrese un numero romano: ";
         cin >> romano;
@@ -54,6 +61,6 @@ void problema10() {
     }
 
 
-
+//Estructuras usadas: Arreglo char romano[50] y apuntador char *romano
 
 

@@ -19,6 +19,8 @@ add_executable(Practica2
   problema6.h problema6.cpp
   problema8.h problema8.cpp
   problema10.h problema10.cpp
+  problema12.h
+  problema12.cpp
 )
 target_link_libraries(Practica2 PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 

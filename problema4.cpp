@@ -2,13 +2,13 @@
 #include <iostream>
 using namespace std;
 
-int cadenaAEntero(char *cadena) {  //el cahr es un apuntador que recibe la cadena del usuario
+int cadenaAEntero(char *cadena) {  //el cahr es un apuntador que recibe la cadena(en realida solo un caracter) del usuario
 
     int resultado = 0; //se va acumulando el numero encontrado mientras se re3corre la cadna
     int i = 0;   //indice para recorreer la cadena
 
     for (; cadena[i] != '\0'; i++) {
-        resultado = resultado * 10 + (cadena[i] - '0');
+        resultado = resultado * 10 + (cadena[i] - '0'); // -0  convierte a valor real
     }
 
     return resultado;

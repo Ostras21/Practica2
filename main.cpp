@@ -4,6 +4,7 @@
 #include "problema6.h"
 #include "problema8.h"
 #include "problema10.h"
+#include "problema12.h"
 using namespace std;
 
 int main() {
@@ -13,11 +14,12 @@ int main() {
 
         cout << "PRACTICA 2 PROBLEMAS PARES" << endl;
         cout << "---------------------------------------" << endl;
-        cout << " 1. problema 2 > Letras aleatorias  " << endl;
+        cout << " 1. problema 2 > letras aleatorias  " << endl;
         cout << " 2. problema 4  > Cadena a entero    " << endl;
         cout << " 3. problema 6  > Minusculas a mayus " << endl;
-        cout << " 4. problema 8  > Separar nums/texto " << endl;
-        cout << " 5. problema 10 > Romano a arabigo   " << endl;
+        cout << " 4. problema 8  > separar numeros de texto " << endl;
+        cout << " 5. problema 10 > Romano a normal   " << endl;
+        cout << " 6. problema 12 > Cuadro magico   " << endl;
         cout << " 0. salir                            " << endl;
         cout << "--------------------------------------" << endl;
         cout << "opcion: ";
@@ -30,6 +32,7 @@ int main() {
         case 3: problema6(); break;
         case 4: problema8(); break;
         case 5: problema10(); break;
+        case 6: problema12(); break;
         case 0: cout << "chau" << endl; break;
         default: cout << "dato ivalido" << endl;
         }

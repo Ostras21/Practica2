@@ -6,7 +6,7 @@ void aMayusculas(char *cadena) {  // recibe la dirección de la cadena, entonces
     for (int i = 0; cadena[i] != '\0'; i++) {
         if (cadena[i] >= 'a' && cadena[i] <= 'z') {
             cadena[i] = cadena[i] - 32; //si es minuscula le resta 32 para pasarala a mayus
-        }
+        }               //va a esta dirección de memoria y trae el valor y lo reemplaza, modifica el byte en la memoria
     }
 }
 

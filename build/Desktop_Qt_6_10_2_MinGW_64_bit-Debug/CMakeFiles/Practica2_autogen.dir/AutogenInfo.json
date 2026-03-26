@@ -186,6 +186,12 @@
 			null
 		],
 		[
+			"C:/Users/otruj/OneDrive/Escritorio/Practica2/problema12.h",
+			"MU",
+			"EWIEGA46WW/moc_problema12.cpp",
+			null
+		],
+		[
 			"C:/Users/otruj/OneDrive/Escritorio/Practica2/problema2.h",
 			"MU",
 			"EWIEGA46WW/moc_problema2.cpp",
@@ -279,6 +285,11 @@
 		[ "C:/Users/otruj/OneDrive/Escritorio/Practica2/main.cpp", "MU", null ],
 		[
 			"C:/Users/otruj/OneDrive/Escritorio/Practica2/problema10.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/otruj/OneDrive/Escritorio/Practica2/problema12.cpp",
 			"MU",
 			null
 		],
